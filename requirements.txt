@@ -1,3 +1,13 @@
+huggingface_hub==0.7.0
+nltk
+numpy
+scikit-learn
+scipy
+sentencepiece
+torch
+torchvision
+tqdm
+transformers
 sentence-transformers==2.2.2
 langchain
 flask

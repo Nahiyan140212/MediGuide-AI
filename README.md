@@ -1,9 +1,9 @@
 # MediGuide AI
 
-MediGuide AI is an **AI-powered medical chatbot** that leverages **Large Language Models (LLMs)** and the **Gale Encyclopedia of Medicine** to provide **reliable health information**. The chatbot helps users get **medical insights, symptom explanations, and general healthcare guidance** through an intuitive interface. **Gale Encyclopedia of Medicine** is a book with around 4500+ pages.
+MediGuide AI is an AI-powered medical chatbot that leverages Large Language Models (LLMs) and the Gale Encyclopedia of Medicine to provide reliable health information. The chatbot helps users get medical insights, symptom explanations, and general healthcare guidance through an intuitive interface. Gale Encyclopedia of Medicine is a book with around 4500+ pages.
 ---
 
-## Features ✨
+## Features
 **AI-Powered Medical Assistance** – Provides reliable answers based on the Gale Encyclopedia of Medicine.  
 **Retrieval-Augmented Generation (RAG)** – Ensures accurate responses by retrieving relevant medical data.  
 **Pinecone Vector Search** – Enables efficient information retrieval from medical documents.  

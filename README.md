@@ -1,20 +1,19 @@
-# MediGuide AI 🏥💡
+# MediGuide AI
 
-MediGuide AI is an **AI-powered medical chatbot** that leverages **Large Language Models (LLMs)** and the **Gale Encyclopedia of Medicine** to provide **reliable health information**. The chatbot helps users get **medical insights, symptom explanations, and general healthcare guidance** through an intuitive interface. **Gale Encyclopedia of Medicine** is a book with around 4500+ pages. Here is the link: 
-
+MediGuide AI is an **AI-powered medical chatbot** that leverages **Large Language Models (LLMs)** and the **Gale Encyclopedia of Medicine** to provide **reliable health information**. The chatbot helps users get **medical insights, symptom explanations, and general healthcare guidance** through an intuitive interface. **Gale Encyclopedia of Medicine** is a book with around 4500+ pages.
 ---
 
 ## Features ✨
-✅ **AI-Powered Medical Assistance** – Provides reliable answers based on the Gale Encyclopedia of Medicine.  
-✅ **Retrieval-Augmented Generation (RAG)** – Ensures accurate responses by retrieving relevant medical data.  
-✅ **Pinecone Vector Search** – Enables efficient information retrieval from medical documents.  
-✅ **Seamless LLM Integration** – Uses OpenAI’s model for natural language understanding.  
-✅ **User-Friendly Interface** – Simple chat-based interaction for laypeople to access medical insights.  
-✅ **Fast & Scalable** – Built with efficient architecture to handle multiple queries.  
+**AI-Powered Medical Assistance** – Provides reliable answers based on the Gale Encyclopedia of Medicine.  
+**Retrieval-Augmented Generation (RAG)** – Ensures accurate responses by retrieving relevant medical data.  
+**Pinecone Vector Search** – Enables efficient information retrieval from medical documents.  
+**Seamless LLM Integration** – Uses OpenAI’s model for natural language understanding.  
+**User-Friendly Interface** – Simple chat-based interaction for laypeople to access medical insights.  
+**Fast & Scalable** – Built with efficient architecture to handle multiple queries.  
 
 ---
 
-## Tech Stack 🛠
+## Tech Stack 
 🔹 **Frontend:** HTML, CSS (for user-friendly chatbot UI)  
 🔹 **Backend:** Python (Flask/FastAPI for API integration)  
 🔹 **Database:** Pinecone (for vector storage)  
@@ -25,11 +24,11 @@ MediGuide AI is an **AI-powered medical chatbot** that leverages **Large Languag
 
 # End-to-End Medical Chatbot - Generative AI
 
-## How to Run? 🏥
+## How to Run?
 
 ### 1️⃣ Clone the Repository:
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/Nahiyan140212/MediGuide-AI.git
 ```
 
 ### 2️⃣ Create a Conda Environment:
@@ -43,7 +42,7 @@ conda activate medibot
 pip install -r requirements.txt
 ```
 
-### 4️⃣ 🔑 Set Up API Keys
+### 4️⃣ Set Up API Keys
 Create a `.env` file in the root directory and add your Pinecone & OpenAI credentials as follows:
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -51,6 +50,7 @@ OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ### 5️⃣ Store Embeddings in Pinecone:
+
 ```bash
 python store_index.py
 ```
@@ -67,7 +67,7 @@ open up localhost:
 
 ---
 
-## Customization 📝
+## Customization 
 If you want to modify this chatbot based on your preferred book or document, just **upload that PDF file into the `Data` folder** and then run:
 ```bash
 python store_index.py
@@ -76,7 +76,7 @@ This will store the embeddings for the new document, allowing the chatbot to ref
 
 ---
 
-## Use Cases 🚑
+## Use Cases 
 🔹 **Medical education & self-learning**  
 🔹 **Quick healthcare Q&A**  
 🔹 **Symptom insights & medical term explanations**  
@@ -98,8 +98,8 @@ This will store the embeddings for the new document, allowing the chatbot to ref
 
 
 
-## Future Plan
-# AWS-CICD-Deployment-with-Github-Actions
+# Future Plan
+## AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
 
